@@ -1,0 +1,1 @@
+{"version":3,"sources":["views/reports/Reports.js"],"names":["Reports"],"mappings":"gHAAA,2BAUeA,UARC,WACd,OACE,oCACE","file":"static/js/9.b8b8cf3c.chunk.js","sourcesContent":["import React from 'react'\r\n\r\nconst Reports = () => {\r\n  return (\r\n    <>\r\n      <h1>Generate Reports</h1>\r\n    </>\r\n  )\r\n}\r\n\r\nexport default Reports\r\n"],"sourceRoot":""}

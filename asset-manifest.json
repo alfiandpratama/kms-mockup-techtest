@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/alfiandpratama/kms-mockup-techtest/static/css/main.1152f335.chunk.css",
+    "main.js": "/alfiandpratama/kms-mockup-techtest/static/js/main.fe1b3db6.chunk.js",
+    "main.js.map": "/alfiandpratama/kms-mockup-techtest/static/js/main.fe1b3db6.chunk.js.map",
+    "runtime-main.js": "/alfiandpratama/kms-mockup-techtest/static/js/runtime-main.4101da18.js",
+    "runtime-main.js.map": "/alfiandpratama/kms-mockup-techtest/static/js/runtime-main.4101da18.js.map",
+    "static/js/2.0c30cbfe.chunk.js": "/alfiandpratama/kms-mockup-techtest/static/js/2.0c30cbfe.chunk.js",
+    "static/js/2.0c30cbfe.chunk.js.map": "/alfiandpratama/kms-mockup-techtest/static/js/2.0c30cbfe.chunk.js.map",
+    "static/css/3.c31d5777.chunk.css": "/alfiandpratama/kms-mockup-techtest/static/css/3.c31d5777.chunk.css",
+    "static/js/3.c8417a77.chunk.js": "/alfiandpratama/kms-mockup-techtest/static/js/3.c8417a77.chunk.js",
+    "static/js/3.c8417a77.chunk.js.map": "/alfiandpratama/kms-mockup-techtest/static/js/3.c8417a77.chunk.js.map",
+    "static/css/4.b26df3bb.chunk.css": "/alfiandpratama/kms-mockup-techtest/static/css/4.b26df3bb.chunk.css",
+    "static/js/4.e9381e9c.chunk.js": "/alfiandpratama/kms-mockup-techtest/static/js/4.e9381e9c.chunk.js",
+    "static/js/4.e9381e9c.chunk.js.map": "/alfiandpratama/kms-mockup-techtest/static/js/4.e9381e9c.chunk.js.map",
+    "static/js/5.289aaced.chunk.js": "/alfiandpratama/kms-mockup-techtest/static/js/5.289aaced.chunk.js",
+    "static/js/5.289aaced.chunk.js.map": "/alfiandpratama/kms-mockup-techtest/static/js/5.289aaced.chunk.js.map",
+    "static/js/6.80cb8a1e.chunk.js": "/alfiandpratama/kms-mockup-techtest/static/js/6.80cb8a1e.chunk.js",
+    "static/js/6.80cb8a1e.chunk.js.map": "/alfiandpratama/kms-mockup-techtest/static/js/6.80cb8a1e.chunk.js.map",
+    "static/js/7.4ab39c45.chunk.js": "/alfiandpratama/kms-mockup-techtest/static/js/7.4ab39c45.chunk.js",
+    "static/js/7.4ab39c45.chunk.js.map": "/alfiandpratama/kms-mockup-techtest/static/js/7.4ab39c45.chunk.js.map",
+    "static/js/8.0b859e2a.chunk.js": "/alfiandpratama/kms-mockup-techtest/static/js/8.0b859e2a.chunk.js",
+    "static/js/8.0b859e2a.chunk.js.map": "/alfiandpratama/kms-mockup-techtest/static/js/8.0b859e2a.chunk.js.map",
+    "static/js/9.b8b8cf3c.chunk.js": "/alfiandpratama/kms-mockup-techtest/static/js/9.b8b8cf3c.chunk.js",
+    "static/js/9.b8b8cf3c.chunk.js.map": "/alfiandpratama/kms-mockup-techtest/static/js/9.b8b8cf3c.chunk.js.map",
+    "index.html": "/alfiandpratama/kms-mockup-techtest/index.html",
+    "precache-manifest.ec82985e42933cc18c92d1c3d9609f4e.js": "/alfiandpratama/kms-mockup-techtest/precache-manifest.ec82985e42933cc18c92d1c3d9609f4e.js",
+    "service-worker.js": "/alfiandpratama/kms-mockup-techtest/service-worker.js",
+    "static/css/3.c31d5777.chunk.css.map": "/alfiandpratama/kms-mockup-techtest/static/css/3.c31d5777.chunk.css.map",
+    "static/css/4.b26df3bb.chunk.css.map": "/alfiandpratama/kms-mockup-techtest/static/css/4.b26df3bb.chunk.css.map",
+    "static/css/main.1152f335.chunk.css.map": "/alfiandpratama/kms-mockup-techtest/static/css/main.1152f335.chunk.css.map",
+    "static/js/2.0c30cbfe.chunk.js.LICENSE.txt": "/alfiandpratama/kms-mockup-techtest/static/js/2.0c30cbfe.chunk.js.LICENSE.txt",
+    "static/js/3.c8417a77.chunk.js.LICENSE.txt": "/alfiandpratama/kms-mockup-techtest/static/js/3.c8417a77.chunk.js.LICENSE.txt",
+    "static/js/4.e9381e9c.chunk.js.LICENSE.txt": "/alfiandpratama/kms-mockup-techtest/static/js/4.e9381e9c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4101da18.js",
+    "static/js/2.0c30cbfe.chunk.js",
+    "static/css/main.1152f335.chunk.css",
+    "static/js/main.fe1b3db6.chunk.js"
+  ]
+}
