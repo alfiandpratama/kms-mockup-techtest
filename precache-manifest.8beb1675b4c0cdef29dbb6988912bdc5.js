@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb494c502bf3a4caad99ff00df317a8c",
+    "revision": "0310608a07177ddd592eb7dd65c8b4db",
     "url": "/alfiandpratama/kms-mockup-techtest/index.html"
   },
   {
