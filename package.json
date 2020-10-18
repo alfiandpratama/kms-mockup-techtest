@@ -2,7 +2,7 @@
   "name": "kms-mockup",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/alfiandpratama/kms-mockup-techtest",
+  "homepage": "https://alfiandpratama.github.io/kms-mockup-techtest/",
   "dependencies": {
     "@ant-design/icons": "^4.2.2",
     "@coreui/coreui": "^3.3.0",
