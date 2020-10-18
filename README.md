@@ -1,7 +1,7 @@
 
 # KMS Mockup Technical Test
 Front-end mockup for KMS Technical Test
-[Demo Link 🚀](https://github.com/alfiandpratama/kms-mockup-techtest)
+[Demo Link 🚀](https://alfiandpratama.github.io/kms-mockup-techtest/)
 
 ## Installation
 
