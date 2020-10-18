@@ -1,0 +1,322 @@
+/*  ============================== *
+ *  General
+ ** ============================== */
+
+body {
+  font-family: $font-primary, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
+  font-weight: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h3 {
+  margin-bottom: 1.5rem;
+  color: $color-primary-light;
+}
+
+h5 {
+  padding-left: 1.5rem;
+  color: $color-gray-light;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+  background-color: transparent;
+  color: $color-gray-light-medium;
+}
+
+fieldset {
+  margin-bottom: 1rem;
+}
+
+legend {
+  font-size: 1rem;
+  font-weight: $font-thick;
+  margin-bottom: 0;
+}
+
+hr {
+  margin-top: 0;
+}
+
+/*  ============================== *
+ *  TheHeader
+ ** ============================== */
+
+.breadcrumb-item {
+  padding-right: 0.5rem;
+
+  &.active {
+    font-size: 1.1rem;
+    font-weight: $font-thick;
+    color: $color-primary-light !important;
+  }
+
+  & + .breadcrumb-item::before {
+    display: inline-block;
+    color: $color-gray;
+    content: '\276F';
+  }
+}
+
+html:not([dir='rtl']) .breadcrumb-item + .breadcrumb-item::before {
+  padding-right: 1rem;
+}
+
+.c-header-nav .c-header-nav-link,
+.c-header-nav .c-header-nav-btn {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.c-header-nav .c-header-nav-item:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.c-header-nav-link.active {
+  font-weight: $font-heavy;
+  color: $color-primary !important;
+}
+
+.c-header-nav .c-header-nav-link .badge,
+.c-header-nav .c-header-nav-btn .badge .badge-bottom {
+  margin-top: 0;
+}
+
+.c-header-nav-link.active::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3.5px;
+  bottom: -18px;
+  left: 0;
+  background-color: $color-primary;
+  border-radius: 10px;
+}
+
+.badge-pill {
+  padding-right: 0.75em;
+  padding-left: 0.75em;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  border-radius: 50%;
+}
+
+.c-avatar {
+  border: 1px solid $color-white-gray;
+}
+
+/*  ============================== *
+ *  TheSidebar
+ ** ============================== */
+
+.c-sidebar {
+  background-color: $color-primary;
+}
+
+.c-sidebar-nav-item .c-sidebar-nav-link {
+  color: $color-white;
+}
+
+.c-sidebar .c-sidebar-nav-link .c-sidebar-nav-icon,
+.c-sidebar .c-sidebar-nav-dropdown-toggle .c-sidebar-nav-icon {
+  color: inherit;
+}
+
+/*  ============================== *
+ *  Datatable
+ ** ============================== */
+
+.border-left-column {
+  border-left: 1px solid;
+  border-color: $color-gray;
+}
+
+.table-default {
+  background-color: $color-white;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px 0 rgba(60, 75, 100, 0.14),
+    0 2px 1px -1px rgba(60, 75, 100, 0.12), 0 1px 3px 0 rgba(60, 75, 100, 0.2);
+}
+
+.table-commands {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(min-content, 1fr));
+  align-items: center;
+
+  & > div {
+    text-align: center;
+  }
+}
+
+nav ul.pagination {
+  display: flex;
+  justify-content: center !important;
+}
+
+.text-value-lg {
+  color: $color-primary;
+}
+
+.btn-group {
+  width: 100%;
+}
+
+.btn-group .btn {
+  background-color: $color-white;
+}
+
+.btn-group .btn.btn-group-active {
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+.btn-group .btn .btn-group-active:hover {
+  color: $color-white;
+}
+
+/*  ============================== *
+ *  Scroll
+ ** ============================== */
+
+body {
+  &::-webkit-scrollbar-track {
+    background-color: $color-white-light;
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+    background-color: $color-white-light;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $color-primary;
+    background-image: -webkit-gradient(
+      linear,
+      0 0,
+      0 100%,
+      color-stop(0.5, rgba(255, 255, 255, 0.2)),
+      color-stop(0.5, transparent),
+      to(transparent)
+    );
+  }
+}
+
+/*  ============================== *
+ *  Registration Page
+ ** ============================== */
+
+.registration {
+  position: relative;
+  margin: -2rem;
+
+  display: flex;
+}
+
+.menu-content {
+  position: fixed;
+  width: 18rem;
+  min-height: 100%;
+  padding: 1.75rem 0;
+
+  ul {
+    padding: 0;
+    list-style: none;
+
+    li {
+      width: 100%;
+      padding: 0.5rem 1.5rem;
+
+      a {
+        &:hover {
+          text-decoration: none;
+        }
+
+        &:active {
+          color: $color-primary-dark;
+        }
+      }
+    }
+  }
+
+  &--active {
+    background-color: $color-white-gray;
+    font-weight: $font-thick;
+    color: $color-primary-dark;
+
+    a {
+      color: $color-primary-dark;
+    }
+  }
+
+  &__list {
+    margin-top: 0.75rem;
+  }
+
+  &__sublist a {
+    padding-left: 1.5rem;
+  }
+}
+
+.form-content {
+  position: relative;
+  margin-left: 18rem;
+  padding: 1.5rem;
+  background-color: $color-white;
+
+  flex-grow: 1;
+}
+
+.form-action {
+  background-color: $color-white;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  padding: 1rem 4rem;
+  box-shadow: 0 -5px 5px -5px $color-gray-dark;
+}
+
+// Responsive Breakpoint 928px
+@media only screen and (max-width: 58em) {
+
+  // -- Table -- //
+  .table-default {
+    font-size: .85rem;
+  }
+  
+  .table-commands {
+    grid-gap: .5rem;
+    grid-template-columns: repeat(2, minmax(min-content, 1fr));
+    grid-template-rows: repeat(2, minmax(min-content, 1fr));
+  }
+
+  // -- RegistrationPage -- //
+  .menu-content {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-height: 20rem;
+    margin-top: 1.5rem;
+    padding: 0;
+    border: none;
+  }
+
+  .form-content {
+    position: relative;
+    width: 100%;
+    margin-top: 18rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+// Responsive Breakpoint 768px
+@media only screen and (max-width: 48em) {
+  // -- RegistrationPage -- //
+  .menu-content {
+    padding-left: 1rem;
+  }
+}
